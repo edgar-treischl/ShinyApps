@@ -1,0 +1,5 @@
+---
+title: "Linear regression app"
+---
+
+<iframe src = "http://rstudio.edgar-treischl.de/shiny/ols/" class="shiny-app">

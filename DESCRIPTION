@@ -16,18 +16,13 @@ Suggests:
     rmarkdown
 VignetteBuilder: knitr
 Imports: 
-    asbio,
-    bslib,
-    dotwhisker,
-    ggbeeswarm,
+    cowplot,
+    datasauRus,
+    dplyr,
     ggplot2,
-    knitr,
-    magrittr,
+    ggrepel,
+    palmerpenguins,
     patchwork,
-    performance,
-    pwr,
-    shiny,
-    stats,
-    thematic,
-    tidyr,
-    waiter
+    showtext,
+    tidyr
+
