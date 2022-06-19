@@ -3,3 +3,4 @@
 export(ggpie)
 export(ggslope)
 export(plotgraph)
+export(run_app)

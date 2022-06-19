@@ -25,19 +25,7 @@ devtools::install_github("edgar-treischl/Graphs")
 Without input, the `plotgraph()` function returns all available graphs.
 
 ``` r
-library(Graphs)
-plotgraph()
-#> Error in plotgraph(): Please run `plotgraph()` with a valid argument.
-#> Valid examples are:
-#> anscombe_quartet.R
-#> boxplot_illustration.R
-#> boxplot_pitfalls.R
-#> data_joins.R
-#> datasaurus.R
-#> gapminder.R
-#> pacman.R
-#> simpson.R
-#> ucb_admission.R
+library(shinyapps)
 ```
 
 The `plotgraph()` function just picks the installed source code and
@@ -52,25 +40,3 @@ plotgraph("datasaurus.R")
 
 And the package gives access to convenient functions to make `ggplot2`
 graphs with less effort. For example, `ggslope()` returns a slope chart.
-
-``` r
-library(tidyr)
-#> Warning: Paket 'tidyr' wurde unter R Version 4.1.2 erstellt
-library(ggplot2)
-#> Warning: Paket 'ggplot2' wurde unter R Version 4.1.2 erstellt
-df <- tribble(
- ~times, ~country,  ~gdp, ~inc,
- "1990",   "A",  22.3, TRUE,
- "2000",   "A",  44.6, TRUE,
- "1990",   "B",  12.3, FALSE,
- "2000",   "B",  4.6, FALSE
- )
-
-ggslope(df,
-         times = times,
-         outcome = gdp,
-         group = country)+
-  theme_minimal()
-```
-
-<img src="man/figures/README-unnamed-chunk-3-1.png" width="100%" />

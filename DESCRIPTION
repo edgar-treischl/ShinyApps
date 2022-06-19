@@ -1,13 +1,13 @@
-Package: Graphs
-Title: Collection of R Graphs
+Package: shinyapps
+Title: Collection of Shiny Apps
 Version: 0.0.0.9000
 Authors@R: person("Edgar", "Treischl", 
                 email = "edgar.treischl@fau.de",
                 comment = c(ORCID = "0000-0001-5627-9125"),
                 role = c("aut", "cre"))
 Description: The package gives access to graphs made with R and helpers functions for ggplot2. 
-URL: https://edgar-treischl.github.io/Graphs/
-BugReports: https://github.com/edgar-treischl/Graphs/issues
+URL: https://edgar-treischl.github.io/shinyapps/
+BugReports: https://github.com/edgar-treischl/shinyapps/issues
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
@@ -24,5 +24,6 @@ Imports:
     ggrepel,
     palmerpenguins,
     patchwork,
+    shiny,
     showtext,
     tidyr

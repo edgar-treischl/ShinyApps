@@ -34,8 +34,8 @@ devtools::install_github("edgar-treischl/Graphs")
 Without input, the `plotgraph()` function returns all available graphs.
 
 ```{r example, warning=TRUE, error=TRUE}
-library(Graphs)
-plotgraph()
+library(shinyapps)
+
 ```
 
 The `plotgraph()` function just picks the installed source code and returns the graphs. For example, the `datasaurus` plot.
@@ -46,23 +46,4 @@ plotgraph("datasaurus.R")
 ```
 
 And the package gives access to convenient functions to make `ggplot2` graphs with less effort. For example, `ggslope()` returns a slope chart.
-
-```{r}
-library(tidyr)
-library(ggplot2)
-df <- tribble(
- ~times, ~country,  ~gdp, ~inc,
- "1990",   "A",  22.3, TRUE,
- "2000",   "A",  44.6, TRUE,
- "1990",   "B",  12.3, FALSE,
- "2000",   "B",  4.6, FALSE
- )
-
-ggslope(df,
-         times = times,
-         outcome = gdp,
-         group = country)+
-  theme_minimal()
-```
-
 
