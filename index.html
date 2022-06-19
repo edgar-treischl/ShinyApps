@@ -65,29 +65,20 @@
 </nav><div class="container template-home">
 <div class="row">
   <main id="main" class="col-md-9"><div class="section level1">
-<div class="page-header"><h1 id="graphs">Graphs<a class="anchor" aria-label="anchor" href="#graphs"></a>
+<div class="page-header"><h1 id="shinyapps">ShinyApps<a class="anchor" aria-label="anchor" href="#shinyapps"></a>
 </h1></div>
-<!-- badges: start --><!-- badges: end --><p>This site is the home, a personal package, and a vehicle for graphs made with R. It installs the source code of illustrations and other graphs that I made and provides convenient functions to make graphs with <code>ggplot2</code> (e.g. slope plots.)</p>
+<!-- badges: start --><!-- badges: end --><p>This package is the home for shiny apps and installs all necessary packages to run them.</p>
 <div class="section level2">
 <h2 id="installation">Installation<a class="anchor" aria-label="anchor" href="#installation"></a>
 </h2>
-<p>You can install Graphs from <a href="https://github.com/" class="external-link">GitHub</a> with:</p>
+<p>You can install the development version of ShinyApps from <a href="https://github.com/" class="external-link">GitHub</a> with:</p>
 <div class="sourceCode" id="cb1"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="co"># install.packages("devtools")</span>
-<span class="fu">devtools</span><span class="fu">::</span><span class="fu">install_github</span><span class="op">(</span><span class="st">"edgar-treischl/Graphs"</span><span class="op">)</span></code></pre></div>
-</div>
-<div class="section level2">
-<h2 id="example">Example<a class="anchor" aria-label="anchor" href="#example"></a>
-</h2>
-<p>Without input, the <code><a href="reference/plotgraph.html">plotgraph()</a></code> function returns all available graphs.</p>
+<span class="fu">devtools</span><span class="fu">::</span><span class="fu">install_github</span><span class="op">(</span><span class="st">"edgar-treischl/ShinyApps"</span><span class="op">)</span></code></pre></div>
+<p>Use the <code><a href="reference/run_app.html">run_app()</a></code> function to run one of the shiny apps on your computer.</p>
 <div class="sourceCode" id="cb2"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va"><a href="https://edgar-treischl.github.io/shinyapps/" class="external-link">shinyapps</a></span><span class="op">)</span></code></pre></div>
-<p>The <code><a href="reference/plotgraph.html">plotgraph()</a></code> function just picks the installed source code and returns the graphs. For example, the <code>datasaurus</code> plot.</p>
-<div class="sourceCode" id="cb3"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span class="co">## basic example code</span>
-<span class="fu"><a href="reference/plotgraph.html">plotgraph</a></span><span class="op">(</span><span class="st">"datasaurus.R"</span><span class="op">)</span></code></pre></div>
-<p><img src="reference/figures/README-unnamed-chunk-2-1.png" width="100%"></p>
-<p>And the package gives access to convenient functions to make <code>ggplot2</code> graphs with less effort. For example, <code><a href="reference/ggslope.html">ggslope()</a></code> returns a slope chart.</p>
+<code class="sourceCode R"><span class="fu">ShinyApps</span><span class="fu">::</span><span class="fu">run_app</span><span class="op">(</span><span class="op">)</span>
+<span class="co">#&gt; Error in loadNamespace(x): es gibt kein Paket namens 'ShinyApps'</span></code></pre></div>
 </div>
 </div>
   </main><aside class="col-md-3"><div class="links">
