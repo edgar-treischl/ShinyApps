@@ -1,33 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://edgar-treischl.github.io/Graphs/404.html</loc>
+    <loc>https://edgar-treischl.github.io/shinyapps/404.html</loc>
   </url>
   <url>
-    <loc>https://edgar-treischl.github.io/Graphs/LICENSE-text.html</loc>
+    <loc>https://edgar-treischl.github.io/shinyapps/LICENSE-text.html</loc>
   </url>
   <url>
-    <loc>https://edgar-treischl.github.io/Graphs/LICENSE.html</loc>
+    <loc>https://edgar-treischl.github.io/shinyapps/LICENSE.html</loc>
   </url>
   <url>
-    <loc>https://edgar-treischl.github.io/Graphs/articles/Overview.html</loc>
+    <loc>https://edgar-treischl.github.io/shinyapps/articles/Overview.html</loc>
   </url>
   <url>
-    <loc>https://edgar-treischl.github.io/Graphs/articles/index.html</loc>
+    <loc>https://edgar-treischl.github.io/shinyapps/articles/index.html</loc>
   </url>
   <url>
-    <loc>https://edgar-treischl.github.io/Graphs/articles/web_only/linear_regression.html</loc>
+    <loc>https://edgar-treischl.github.io/shinyapps/authors.html</loc>
   </url>
   <url>
-    <loc>https://edgar-treischl.github.io/Graphs/authors.html</loc>
+    <loc>https://edgar-treischl.github.io/shinyapps/index.html</loc>
   </url>
   <url>
-    <loc>https://edgar-treischl.github.io/Graphs/index.html</loc>
+    <loc>https://edgar-treischl.github.io/shinyapps/reference/index.html</loc>
   </url>
   <url>
-    <loc>https://edgar-treischl.github.io/Graphs/reference/index.html</loc>
-  </url>
-  <url>
-    <loc>https://edgar-treischl.github.io/Graphs/reference/run_app.html</loc>
+    <loc>https://edgar-treischl.github.io/shinyapps/reference/run_app.html</loc>
   </url>
 </urlset>

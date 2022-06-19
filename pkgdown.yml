@@ -3,9 +3,8 @@ pkgdown: 2.0.4
 pkgdown_sha: ~
 articles:
   Overview: Overview.html
-  linear_regression: web_only/linear_regression.html
-last_built: 2022-06-19T15:42Z
+last_built: 2022-06-19T16:45Z
 urls:
-  reference: https://edgar-treischl.github.io/Graphs/reference
-  article: https://edgar-treischl.github.io/Graphs/articles
+  reference: https://edgar-treischl.github.io/shinyapps/reference
+  article: https://edgar-treischl.github.io/shinyapps/articles
 
