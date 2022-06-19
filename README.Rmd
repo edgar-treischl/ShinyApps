@@ -13,37 +13,26 @@ knitr::opts_chunk$set(
 )
 ```
 
-# Graphs
+# ShinyApps
 
 <!-- badges: start -->
 <!-- badges: end -->
 
-This site is the home, a personal package, and a vehicle for graphs made with R. It installs the source code of illustrations and other graphs that I made and provides convenient functions to make graphs with `ggplot2` (e.g. slope plots.)
+This package is the home for shiny apps and installs all necessary packages to run them.
 
 ## Installation
 
-You can install Graphs from [GitHub](https://github.com/) with:
+You can install the development version of ShinyApps from [GitHub](https://github.com/) with:
 
 ``` r
 # install.packages("devtools")
-devtools::install_github("edgar-treischl/Graphs")
+devtools::install_github("edgar-treischl/ShinyApps")
 ```
 
-## Example
+Use the `run_app()` function to run one of the shiny apps on your computer.
 
-Without input, the `plotgraph()` function returns all available graphs.
-
-```{r example, warning=TRUE, error=TRUE}
-library(shinyapps)
-
+```{r, error=TRUE}
+ShinyApps::run_app()
 ```
 
-The `plotgraph()` function just picks the installed source code and returns the graphs. For example, the `datasaurus` plot.
-
-```{r, warning=FALSE, message=FALSE}
-## basic example code
-plotgraph("datasaurus.R")
-```
-
-And the package gives access to convenient functions to make `ggplot2` graphs with less effort. For example, `ggslope()` returns a slope chart.
 
