@@ -16,8 +16,17 @@ Suggests:
     knitr,
     rmarkdown
 Imports: 
+    bslib,
+    dotwhisker,
+    ggbeeswarm,
     ggplot2,
+    magrittr,
+    patchwork,
     performance,
+    pwr,
     shiny,
-    thematic
+    stats,
+    thematic,
+    tidyr,
+    waiter
 VignetteBuilder: knitr

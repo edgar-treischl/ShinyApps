@@ -2,4 +2,6 @@
 title: "Linear regression app"
 ---
 
-<iframe src = "https://edgar-treischl.shinyapps.io/olsapp/" class="shiny-app">
+
+<iframe width="100%" height="80%" src="https://edgar-treischl.shinyapps.io/olsapp/" class="shiny-app"/>
+
