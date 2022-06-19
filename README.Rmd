@@ -13,7 +13,7 @@ knitr::opts_chunk$set(
 )
 ```
 
-# ShinyApps
+# Shinyapps
 
 <!-- badges: start -->
 <!-- badges: end -->

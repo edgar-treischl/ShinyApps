@@ -16,14 +16,8 @@ Suggests:
     knitr,
     rmarkdown
 Imports: 
-    cowplot,
-    datasauRus,
-    dplyr,
     ggplot2,
-    ggrepel,
-    palmerpenguins,
-    patchwork,
+    performance,
     shiny,
-    showtext,
-    tidyr
+    thematic
 VignetteBuilder: knitr

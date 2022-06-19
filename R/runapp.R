@@ -5,7 +5,7 @@
 
 run_app <- function(name) {
   # locate all the shiny app examples that exist
-  validExamples <- list.files(system.file("apps", package = "ShinyApps"))
+  validExamples <- list.files(system.file("apps", package = "shinyapps"))
 
   validExamplesMsg <-
     paste0(
@@ -23,6 +23,6 @@ run_app <- function(name) {
   }
 
   # find and launch the app
-  appDir <- system.file("apps", name, package = "ShinyApps")
+  appDir <- system.file("apps", name, package = "shinyapps")
   shiny::runApp(appDir, display.mode = "normal", quiet = TRUE)
 }
