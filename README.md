@@ -1,7 +1,7 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# ShinyApps
+# Shinyapps
 
 <!-- badges: start -->
 <!-- badges: end -->
@@ -25,5 +25,5 @@ computer.
 ``` r
 shinyapps::run_app()
 #> Error: Please run `run_app()` with a valid name as an argument.
-#> Valid examples are: ''
+#> Valid examples are: 'causality', 'power', 'titanic'
 ```
