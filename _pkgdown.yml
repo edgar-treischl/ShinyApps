@@ -1,18 +1,14 @@
-url: https://edgar-treischl.github.io/Graphs/
+url: https://edgar-treischl.github.io/shinyapps/
 template:
   bootstrap: 5
-  bootswatch: litera
+  bootswatch: flatly
 navbar:
   structure:
-    right: [github]
-  components:
-   articles:
-    text: Articles
-    menu:
-    - text: Overview
-      href: articles/Overview.html
-    - text: OLS App
-      href: articles/web_only/linear_regression.html
+    left:
+    - intro
+    - reference
+    - articles
+    right: github
 development:
   mode: auto
 authors:
