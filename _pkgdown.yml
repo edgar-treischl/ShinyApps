@@ -9,10 +9,10 @@ navbar:
    articles:
     text: Articles
     menu:
-    - text: Illustrations
-      href: articles/web_only/illustrations.html
-    - text: Helpers
-      href: articles/examples.html
+    - text: Overview
+      href: articles/Overview.html
+    - text: OLS App
+      href: articles/web_only/linear_regression.html
 development:
   mode: auto
 authors:

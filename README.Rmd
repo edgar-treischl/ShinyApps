@@ -32,7 +32,7 @@ devtools::install_github("edgar-treischl/ShinyApps")
 Use the `run_app()` function to run one of the shiny apps on your computer.
 
 ```{r, error=TRUE}
-ShinyApps::run_app()
+shinyapps::run_app()
 ```
 
 

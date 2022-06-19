@@ -13,8 +13,8 @@ Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.2.0
 Suggests: 
+    knitr,
     rmarkdown
-VignetteBuilder: knitr
 Imports: 
     cowplot,
     datasauRus,
@@ -23,6 +23,7 @@ Imports:
     ggrepel,
     palmerpenguins,
     patchwork,
+    shiny,
     showtext,
     tidyr
-
+VignetteBuilder: knitr

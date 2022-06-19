@@ -23,6 +23,7 @@ Use the `run_app()` function to run one of the shiny apps on your
 computer.
 
 ``` r
-ShinyApps::run_app()
-#> Error in loadNamespace(x): es gibt kein Paket namens 'ShinyApps'
+shinyapps::run_app()
+#> Error: Please run `run_app()` with a valid name as an argument.
+#> Valid examples are: ''
 ```
