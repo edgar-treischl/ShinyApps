@@ -6,16 +6,17 @@ source("03_mediator_plot.R")
 source("04_collider_plot.R")
 
 library(shiny)
+library(patchwork)
 
 ui <- fixedPage(
-  
+
   #theme = material,
   theme = bslib::bs_theme(bootswatch = "journal"),
-  
+
   # Application title
   #titlePanel("Power Analysis"),
-  
-  # Sidebar with a slider input for number of bins 
+
+  # Sidebar with a slider input for number of bins
   navbarPage("Causality", collapsible = TRUE,
              tabPanel("Start", icon = icon("play"),
                       scatterplotUI("scatter")
@@ -36,15 +37,15 @@ ui <- fixedPage(
 )
 
 server <- function(input, output, session) {
-  
+
   Sys.sleep(3) # do something that takes time
   scatterplotServer("scatter")
   introServer("histogram")
   shoesizeServer("shoes")
   mediatorplotServer("mediator")
   colliderplotServer("collider")
-  
-  
+
+
 }
 
 shinyApp(ui = ui, server = server)

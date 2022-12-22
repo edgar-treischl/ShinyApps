@@ -17,3 +17,13 @@ knitr::opts_chunk$set(
 ## Linear Regression app
 
 [![](ols.png){width="694"}](http://rstudio.edgar-treischl.de/shiny/ols/)
+
+
+## Titanic app
+
+[![](LogitApp.png){width="694"}](http://rstudio.edgar-treischl.de/shiny/titanic/)
+
+
+## Power analysis app
+
+[![](PowerAnalysis.png){width="694"}](http://rstudio.edgar-treischl.de/shiny/power/)

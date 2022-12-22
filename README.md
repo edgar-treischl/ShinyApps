@@ -4,6 +4,8 @@
 # Shinyapps
 
 <!-- badges: start -->
+
+[![R-CMD-check](https://github.com/edgar-treischl/shinyapps/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/edgar-treischl/shinyapps/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
 This package is the home for shiny apps and installs all necessary
