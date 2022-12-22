@@ -21,7 +21,8 @@ You can install the development version of ShinyApps from
 devtools::install_github("edgar-treischl/ShinyApps")
 ```
 
-Use the `run_app()` function to run one of the shiny apps on your
+Get a quick overview about my apps in the articles section and use the
+`run_app()` function if you want to run one of the apps on your
 computer.
 
 ``` r
