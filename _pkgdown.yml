@@ -1,7 +1,12 @@
 url: https://edgar-treischl.github.io/shinyapps/
 template:
   bootstrap: 5
-  bootswatch: flatly
+  bootswatch: journal
+  bslib:
+    bg: "white"
+    fg: "black"
+    primary: "#0081a7"
+
 navbar:
   structure:
     left:
